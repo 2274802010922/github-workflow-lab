@@ -2,6 +2,8 @@
 
 Ưu tiên sửa hướng dẫn khó hiểu, bổ sung ví dụ tái tạo được hoặc cải thiện một bài thực hành.
 
+Nếu phát hiện một bước không chạy được, mở issue ghi rõ hệ điều hành, phiên bản Git/shell, lệnh đã chạy và kết quả mong đợi. Khi PR giải quyết xong issue, thêm `Closes #N` vào mô tả PR, với `N` là số issue trong cùng repo. GitHub sẽ tự đóng issue khi PR được merge vào nhánh mặc định.
+
 ## Quy trình
 
 1. Nếu không có quyền đẩy nhánh vào repo, fork repo về tài khoản của bạn.
