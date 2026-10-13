@@ -6,13 +6,30 @@ Mục tiêu: luyện cách tạo nhánh, viết commit rõ ràng, mở pull requ
 
 ## Chuẩn bị
 
-- Cài Git và đăng nhập GitHub.
+- Cài Git phiên bản 2.23 trở lên để dùng `git switch` và đăng nhập GitHub.
+- Bài 02 và 03 dùng PowerShell; các lệnh đã được chạy thử với PowerShell 7. Windows PowerShell 5.1 chưa được kiểm tra.
 - Clone repo về máy:
 
 ```sh
 git clone https://github.com/2274802010922/github-workflow-lab.git
 cd github-workflow-lab
 ```
+
+Trước commit đầu tiên, kiểm tra danh tính Git:
+
+```sh
+git config --get user.name
+git config --get user.email
+```
+
+Nếu thiếu hoặc chưa đúng, thay hai giá trị mẫu sau bằng tên của bạn và email đã liên kết với GitHub. Có thể dùng địa chỉ `noreply` được hiển thị trong [cài đặt email GitHub](https://github.com/settings/emails).
+
+```sh
+git config user.name "Tên của bạn"
+git config user.email "EMAIL_CUA_BAN"
+```
+
+Các lệnh trên chỉ cấu hình repo hiện tại. Với repo mới tạo trong bài 02 hoặc 03, kiểm tra và cấu hình lại nếu cần. Danh tính commit và trạng thái đăng nhập để push lên GitHub là hai việc riêng.
 
 ## Quy ước
 
